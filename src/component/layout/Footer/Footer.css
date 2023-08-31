@@ -1,0 +1,89 @@
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 15vmax;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h3 {
+  font-family: "Lobster";
+  font-size: 2vmax;
+  font-weight: 300;
+}
+.leftFooter .btn {
+  text-align: start;
+  font-size: 3vmax;
+  font-family: "Dancing Script", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 14vmax;
+    border-radius: 14px;
+    background-color: #eb4034;
+    color: black;
+}
+ .btn:hover{
+  text-align: start;
+  font-size: 3vmax;
+  font-family: "Dancing Script", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 14vmax;
+    border-radius: 14px;
+    background-color:black;
+    color: #eb4034;
+    
+}
+.leftFooter a .btn{
+    text-align: center;
+}
+
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter .image .head{
+ 
+    color: blueviolet;
+
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.9vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 2.3vmax;
+  font-family: "Phudu";
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
